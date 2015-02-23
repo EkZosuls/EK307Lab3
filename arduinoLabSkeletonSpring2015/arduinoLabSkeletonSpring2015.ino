@@ -13,8 +13,9 @@
 /* comment blocks of code with slash-star end with star-slash
 All lines of code except control statements and defines terminate with a semicolon */
 
-const int WarningLED = 7; /*this defines the variable WarningLED to have an integer value 7. 
-13 is the pin number that is connected to the on board Arduino green LED. 
+const int WarningLED = 7; /*this defines the variable WarningLED to have an integer value 7. The value corresponds
+to a digital Pin number. 7 was chosen for no reason other than it is not being used for any other function.
+Pin number 13 is connected to the on board Arduino green LED. 
 If you want to connect your LED to a different pin change the number to another avialable digital output.
 This method of defining the pins makes more readable code plus it is easier to change the pin since it is only
 specified once in the code.*/
